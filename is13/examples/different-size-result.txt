@@ -1,0 +1,103 @@
+激活函数是sigmoid_sigmoid时：
+20%  [0-796]
+NEW BEST: epoch 0, valid F1 63.72, best test F1 59.78
+NEW BEST: epoch 1, valid F1 76.72, best test F1 73.71
+NEW BEST: epoch 2, valid F1 84.03, best test F1 80.95
+NEW BEST: epoch 4, valid F1 86.87, best test F1 82.94
+NEW BEST: epoch 5, valid F1 87.34, best test F1 85.03
+NEW BEST: epoch 7, valid F1 88.75, best test F1 86.18
+NEW BEST: epoch 8, valid F1 90.12, best test F1 88.43
+NEW BEST: epoch 11, valid F1 91.67, best test F1 89.52
+NEW BEST: epoch 14, valid F1 91.68, best test F1 90.5
+NEW BEST: epoch 16, valid F1 92.09, best test F1 90.16
+NEW BEST: epoch 17, valid F1 92.22, best test F1 89.97
+NEW BEST: epoch 18, valid F1 92.32, best test F1 89.82
+NEW BEST: epoch 19, valid F1 92.37, best test F1 90.15
+NEW BEST: epoch 21, valid F1 92.46, best test F1 90.66
+NEW BEST: epoch 23, valid F1 92.56, best test F1 90.09
+NEW BEST: epoch 26, valid F1 92.71, best test F1 89.96
+NEW BEST: epoch 36, valid F1 92.73, best test F1 90.09
+NEW BEST: epoch 37, valid F1 92.79, best test F1 90.17
+NEW BEST: epoch 41, valid F1 92.84, best test F1 90.11
+p 90.3   r 89.92   f1 90.11
+p 92.69   r 93.0   f1 92.84
+
+40%  [2030,3983]
+NEW BEST: epoch 0, valid F1 81.5, best test F1 78.81
+NEW BEST: epoch 1, valid F1 86.04, best test F1 83.29
+NEW BEST: epoch 2, valid F1 90.88, best test F1 87.82
+NEW BEST: epoch 3, valid F1 92.01, best test F1 89.39
+NEW BEST: epoch 5, valid F1 93.34, best test F1 89.25
+NEW BEST: epoch 7, valid F1 93.58, best test F1 90.75
+NEW BEST: epoch 8, valid F1 94.16, best test F1 91.51
+NEW BEST: epoch 9, valid F1 95.0, best test F1 92.44
+NEW BEST: epoch 12, valid F1 95.56, best test F1 92.75
+NEW BEST: epoch 13, valid F1 95.73, best test F1 92.21
+NEW BEST: epoch 14, valid F1 95.95, best test F1 92.8
+NEW BEST: epoch 17, valid F1 96.2, best test F1 93.35
+NEW BEST: epoch 22, valid F1 96.44, best test F1 93.7
+NEW BEST: epoch 33, valid F1 96.49, best test F1 93.83
+NEW BEST: epoch 35, valid F1 96.51, best test F1 94.02
+NEW BEST: epoch 37, valid F1 96.52, best test F1 93.97
+NEW BEST: epoch 39, valid F1 96.54, best test F1 94.02
+NEW BEST: epoch 42, valid F1 96.57, best test F1 93.96
+NEW BEST: epoch 43, valid F1 96.63, best test F1 94.06
+p 94.36   r 93.76   f1 94.06
+p 96.83   r 96.42   f1 96.63
+
+60%  [0-2389]：
+NEW BEST: epoch 0, valid F1 84.15, best test F1 81.6
+NEW BEST: epoch 1, valid F1 87.79, best test F1 84.63
+NEW BEST: epoch 2, valid F1 88.25, best test F1 83.89
+NEW BEST: epoch 3, valid F1 92.47, best test F1 89.31
+NEW BEST: epoch 4, valid F1 93.18, best test F1 90.14
+NEW BEST: epoch 5, valid F1 94.42, best test F1 91.56
+NEW BEST: epoch 8, valid F1 94.62, best test F1 92.23
+NEW BEST: epoch 10, valid F1 94.86, best test F1 92.58
+NEW BEST: epoch 11, valid F1 95.33, best test F1 92.4
+NEW BEST: epoch 22, valid F1 96.11, best test F1 93.31
+NEW BEST: epoch 27, valid F1 96.19, best test F1 93.78
+NEW BEST: epoch 28, valid F1 96.4, best test F1 94.11
+NEW BEST: epoch 32, valid F1 96.42, best test F1 93.77
+NEW BEST: epoch 34, valid F1 96.5, best test F1 93.87
+NEW BEST: epoch 35, valid F1 96.55, best test F1 93.97
+NEW BEST: epoch 37, valid F1 96.62, best test F1 94.05
+NEW BEST: epoch 38, valid F1 96.69, best test F1 93.81
+p 93.8   r 93.83   f1 93.81
+p 96.86   r 96.51   f1 96.69
+
+80% [0-3186]:
+NEW BEST: epoch 0, valid F1 85.0, best test F1 81.26
+NEW BEST: epoch 1, valid F1 90.16, best test F1 87.85
+NEW BEST: epoch 2, valid F1 92.48, best test F1 89.11
+NEW BEST: epoch 4, valid F1 94.46, best test F1 90.23
+NEW BEST: epoch 7, valid F1 94.66, best test F1 91.89
+NEW BEST: epoch 8, valid F1 94.87, best test F1 91.88
+NEW BEST: epoch 11, valid F1 96.34, best test F1 94.0
+NEW BEST: epoch 22, valid F1 96.48, best test F1 93.81
+NEW BEST: epoch 30, valid F1 96.61, best test F1 94.32
+NEW BEST: epoch 32, valid F1 96.75, best test F1 93.88
+NEW BEST: epoch 34, valid F1 96.76, best test F1 94.06
+NEW BEST: epoch 35, valid F1 96.81, best test F1 94.06
+NEW BEST: epoch 39, valid F1 96.93, best test F1 94.01
+p 94.26   r 93.76   f1 94.01
+p 97.13   r 96.72   f1 96.93
+
+100%:
+NEW BEST: epoch 0, valid F1 85.39, best test F1 79.66
+NEW BEST: epoch 1, valid F1 91.51, best test F1 89.74
+NEW BEST: epoch 2, valid F1 93.37, best test F1 91.03
+NEW BEST: epoch 3, valid F1 95.07, best test F1 92.51
+NEW BEST: epoch 4, valid F1 95.25, best test F1 92.01
+NEW BEST: epoch 7, valid F1 95.72, best test F1 93.02
+NEW BEST: epoch 8, valid F1 96.64, best test F1 93.2
+NEW BEST: epoch 24, valid F1 96.83, best test F1 93.64
+NEW BEST: epoch 25, valid F1 96.96, best test F1 93.64
+NEW BEST: epoch 31, valid F1 97.14, best test F1 94.69
+NEW BEST: epoch 34, valid F1 97.26, best test F1 93.93
+NEW BEST: epoch 36, valid F1 97.34, best test F1 94.57
+NEW BEST: epoch 40, valid F1 97.41, best test F1 94.74
+NEW BEST: epoch 41, valid F1 97.52, best test F1 94.79
+NEW BEST: epoch 48, valid F1 97.55, best test F1 94.89
+p 95.27   r 94.5   f1 94.89
+p 97.65   r 97.45   f1 97.55
