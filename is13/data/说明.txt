@@ -1,0 +1,16 @@
+政治文本转换成句子，共82700条，存在zhengzhi_idx.txt中(即原始政治corpus)。
+对上述句子进行处理：1.如果句子长度<3，弃掉；2.如果一个句子中太多是unknown标记(>=50%)，则弃掉，认为是无用句子。
+处理之后剩余24918条句子，去掉重复的，剩15584条，存在zhengzhi_useful.txt中，作为政治的最终语料。
+
+同理，对人民日报的训练数据也做上述处理：
+人民日报文本转换成句子后共19484条，分别存在trainx.txt和trainy.txt中(即原始人民日报corpus)。
+做上述处理后剩余4818条句子，存在trainx_useful.txt和trainy_useful.txt中，作为最终的人民日报训练集。
+
+人工标注了zhengzhi_useful.txt的前3043条句子，存在autolabel中，并转成了rnn train的形式：human-trainx.txt, human-trainy.txt;
+
+
+最终数据的使用：
+模型训练：用人民日报语料(4818的80%即3855条)训练rnn，剩下的20%作为测试集训练出rnn最好的模型并对zhengzhi_useful.txt进行预测打分，预测结果存在zhengzhi_predx.txt和zhengzhi_predy.txt中。
+取top2000作为可信的政治训练集，并手动标注zhengzhi_useful.txt中的前3043条，其中1008条作为test集，2035条加入到top2000中共同作为co-training训练集.（3043与top2000重合了326条，所以是top1674）
+co-training初始训练集为：2035+1674=3709，存在cotrain文件夹中。
+
